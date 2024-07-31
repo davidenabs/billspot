@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+  }
+  @import "./base/index.css";
+}
+
+@layer components {
+  @import "./components/index.css";
+}
+
+@layer utilities {
+  @import "./utils/index.css";
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./../../../public/fonts/Satoshi-Variable.ttf");
+}
+
+/*
+  Other CSS files
+*/
+/* @import "./others/index.css"; */

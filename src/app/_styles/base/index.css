@@ -1,0 +1,27 @@
+.app-container {
+  @apply w-[1440px] /* 2xl:px-20  */mx-auto;
+  /* @apply w-full px-3 sm:px-4 lg:px-11 xl:px-20 2xl:px-32 mx-auto !bg-red-300; */
+}
+.rizzui-button {
+  @apply !rounded-[12px];
+}
+
+.latest-swiper .swiper-button-prev {
+  @apply !text-gray-400;
+}
+
+.latest-swiper .swiper-button-next {
+  @apply !text-gray-400;
+}
+
+.discover-nigeria-swiper .swiper-pagination {
+  @apply !-bottom-0;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+  font-family: "Satoshi", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

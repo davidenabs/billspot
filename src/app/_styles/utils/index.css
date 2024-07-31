@@ -1,0 +1,5 @@
+@import "./loader.css";
+
+.rizzui-button {
+  @apply !rounded-[12px];
+}

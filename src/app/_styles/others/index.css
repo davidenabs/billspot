@@ -1,0 +1,100 @@
+@import "./datepicker.css";
+
+/* rizz select */
+.rizzui-select-root {
+  position: relative;
+}
+
+.rizzui-select-root {
+  position: relative;
+}
+
+.rizzui-select-options {
+  z-index: 9999 !important;
+  position: absolute;
+}
+
+.rizzui-input-root .rizzui-input-container {
+  @apply h-[56px];
+  @apply h-[56px];
+}
+
+.rizzui-password-root .rizzui-password-container {
+  @apply h-[56px];
+}
+
+.rizzui-select-root .rizzui-select-button {
+  @apply h-[56px];
+}
+
+/* react tel input */
+.react-tel-input .form-control {
+  @apply h-[56px];
+}
+
+.react-tel-input .selected-flag,
+.\[\&\>\.selected-flag\]\:\!h-\[38px\] > .selected-flag {
+  @apply h-[56px];
+}
+
+[type="radio"]:checked {
+  @apply !bg-checkbox ring-0;
+}
+
+.swiper-pagination-bullet {
+  @apply !bg-[#CAEFDD] !opacity-100;
+}
+
+.swiper-pagination-bullet-active {
+  @apply !bg-[#028F48];
+}
+
+table {
+  @apply border-separate border-spacing-0 border-none;
+}
+
+tr:first-child th:first-child {
+  @apply rounded-tl-2xl;
+}
+tr:first-child th:last-child {
+  @apply rounded-tr-2xl;
+}
+
+tr:last-child td:first-child {
+  @apply rounded-bl-2xl;
+}
+tr:last-child td:last-child {
+  @apply rounded-br-2xl;
+}
+
+.\[\&_\.rc-table-container\]\:border-muted .rc-table-container {
+  @apply rounded-2xl border-t;
+}
+
+/* recent registration swiper */
+.recent-registration-swiper .swiper-button-next,
+.recent-registration-swiper .swiper-button-prev {
+  @apply text-[#8F8F8F] bg-white w-8 h-8 rounded-full shadow;
+  /* box-shadow: 0px 1.14px 22.1px 0px #00000008; */
+}
+
+.recent-registration-swiper .swiper-button-next::after,
+.recent-registration-swiper .swiper-button-prev::after {
+  @apply text-[16px];
+}
+
+.recent-registration-swiper .swiper-button-next {
+  @apply -right-1;
+}
+
+.recent-registration-swiper .swiper-button-prev {
+  @apply -left-1;
+}
+
+.recent-registration-swiper .swiper-pagination {
+  @apply -bottom-10;
+}
+
+.transition-max-height {
+  transition: max-height 0.3s ease-in-out;
+}
