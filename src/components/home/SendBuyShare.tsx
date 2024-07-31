@@ -1,4 +1,5 @@
 // Import Swiper React components
+import { MoneyIcon, SendIcon } from "@/icons";
 import { FC } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -90,7 +91,9 @@ const SendBuyShare = () => {
     <div className="grid grid-cols-1 md:grid-cols-3  gap-10 text-small-body-regular-16">
       <div className="flex w-full gap-3 items-center">
         <div>
-          <div className="bg-[#F2EDFF] h-[82px] w-[82px] rounded-full"></div>
+          <div className="bg-[#F2EDFF] h-[82px] w-[82px] rounded-full flex items-center justify-center">
+            <SendIcon lassName="w-full" />
+          </div>
         </div>
         <div>
           <div className="font-bold">Send</div>
@@ -102,7 +105,9 @@ const SendBuyShare = () => {
       </div>
       <div className="flex w-full gap-3 items-center">
         <div>
-          <div className="bg-[#F2EDFF] h-[82px] w-[82px] rounded-full"></div>
+          <div className="bg-[#F2EDFF] h-[82px] w-[82px] rounded-full flex items-center justify-center">
+            <MoneyIcon className="w-full"  />
+          </div>
         </div>
         <div>
           <div className="font-bold">Buy</div>
@@ -112,7 +117,9 @@ const SendBuyShare = () => {
       </div>
       <div className="flex w-full gap-3 items-center">
         <div>
-          <div className="bg-[#F2EDFF] h-[82px] w-[82px] rounded-full"></div>
+          <div className="bg-[#F2EDFF] h-[82px] w-[82px] rounded-full flex items-center justify-center">
+            <SendIcon />
+          </div>
         </div>
         <div>
           <div className="font-bold">Share</div>
