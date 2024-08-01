@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 5000",
+    "dev": "next dev -p 5001",
     "build": "next build",
-    "start": "next start -p 5000",
+    "start": "next start -p 5001",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,9 +14,11 @@
     "@heroicons/react": "^2.1.5",
     "jotai": "^2.8.4",
     "next": "14.2.4",
+    "next-nprogress-bar": "^2.3.13",
     "nextjs-toploader": "^1.6.12",
     "react": "^18",
     "react-dom": "^18",
+    "react-modal": "^3.16.1",
     "rizzui": "^0.8.4",
     "swiper": "^11.1.9",
     "tailwind-merge": "^2.3.0"

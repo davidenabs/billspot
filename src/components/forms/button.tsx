@@ -4,13 +4,15 @@ import { Button as RizzuiButton } from "rizzui";
 
 type ButtonProps = {
   children: ReactNode;
-  handleClick?: () => void;
+  onClick: any;
+  // handleClick?: () => void;
   type?: "button" | "submit" | "reset";
   className?: string;
   props?: any;
 };
 
 const Button: FC<ButtonProps> = ({
+  onClick,
   children,
   type = "button",
   className = "",
@@ -18,6 +20,7 @@ const Button: FC<ButtonProps> = ({
 }) => {
   return (
     <RizzuiButton
+      onClick={onClick}
       type={type}
       className={`${className} justify-center self-stretch p-2.5 text-bs-yellow bg-bs-violet !rounded-lg`}
       {...props}

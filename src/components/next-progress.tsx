@@ -8,7 +8,7 @@ export default function NextProgress() {
       showSpinner={false}
       crawlSpeed={100}
       speed={100}
-      color="#028F48"
+      color="#8b5cf6"
     />
   );
 }

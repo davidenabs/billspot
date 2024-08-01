@@ -1,3 +1,7 @@
 .rizzui-button {
   @apply !rounded-[12px];
 }
+
+.rizzui-pin-code-container {
+  @apply flex items-center !justify-between h-[56px];
+}
