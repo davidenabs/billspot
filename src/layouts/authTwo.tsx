@@ -36,7 +36,7 @@ function AuthTwo({ children, title = "" }: AuthTwoProps) {
 
   return (
     <Fragment>
-      <section className="md:p-20 max-md:p-5 !bg-white">
+      <section className="md:p-20 max-md:p-5 !bg-white h-screen">
         <div className="flexgap-48items-center">
           <Image
             src={"/images/billspot-logo.png"}

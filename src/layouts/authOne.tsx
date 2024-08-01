@@ -30,10 +30,10 @@ function AuthOne({ children }: { children: React.ReactNode }) {
 
   return (
     <Fragment>
-      <section className="grid grid-cols-1 lg:grid-cols-2">
+      <section className="grid grid-cols-1 lg:grid-cols-2 !bg-white ">
         <div className="bg-bs-violet text-white py-28 px-12 min-h-screen hidden lg:block">
-          <div className="flex flex-col justify-between h-full pr-10 lg:pr-32">
-            <div className="md:pr-1 lg:pr-40">
+          <div className="flex flex-col justify-between h-full pr-10 xl:pr-32">
+            <div className="md:pr-1 xl:pr40">
               <Text className="text-4xl font-extrabold leading-10">
                 Making <span className="text-bs-yellow">bill payments</span>{" "}
                 seamless and convenient just for you!
@@ -54,7 +54,7 @@ function AuthOne({ children }: { children: React.ReactNode }) {
 
         <div
           className={cn(
-            "h-full py-28 md:px-12 xl:px-0 w-full max-md:px-5 lg:w-[500px] space-y-[52px] mx-auto !bg-white",
+            "h-full py-28 md:px-12 xl:px-0 w-full max-md:px-5 lg:w-[500px] space-y-[52px] mx-auto hscreen",
             !app.showAuthTabs && "flex"
           )}
         >
