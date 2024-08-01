@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex md:justify-end items-center">
-            <Button onClick={undefined} className="!py- text-lg font-bold leading-5 text-bs-yellow bg-bs-violet rounded-lg max-md:px-5">
+            <Button onClick={undefined} className="text-lg font-bold leading-5 text-bs-yellow bg-bs-violet rounded-lg max-md:px-5">
               Sign up for free
             </Button>
           </div>
