@@ -14,11 +14,11 @@ const Hero = () => {
               Experience convenience at your fingertips.
             </div>
             <div className="flex gap-10 lg:justify-start items-center mt-9">
-              <Button className="h-[58px] font-bold w-[185px] text-lg">
+              <Button className="h-[58px] font-bold w-[185px] text-lg"  onClick={undefined}>
                 Register now
               </Button>
               {/* <a href="#" className="text-base">Login</a> */}
-              <Button className="h-[58px] md:hidden !text-black !bg-transparent font-bold text-lg">
+              <Button  onClick={undefined} className="h-[58px] md:hidden !text-black !bg-transparent font-bold text-lg">
                 Login
               </Button>
             </div>
