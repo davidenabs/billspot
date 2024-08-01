@@ -75,7 +75,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Button className="p-2.5 font-bold h-[58px] w-[185px]">
+              <Button onClick={undefined} className="p-2.5 font-bold h-[58px] w-[185px]">
                 Sign up for free
               </Button>
             </li>
