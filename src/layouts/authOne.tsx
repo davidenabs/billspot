@@ -54,7 +54,7 @@ function AuthOne({ children }: { children: React.ReactNode }) {
 
         <div
           className={cn(
-            "h-full py-28 md:px-12 xl:px-0 w-full max-md:px-5 lg:w-[500px] space-y-[52px] mx-auto",
+            "h-full py-28 md:px-12 xl:px-0 w-full max-md:px-5 lg:w-[500px] space-y-[52px] mx-auto !bg-white",
             !app.showAuthTabs && "flex"
           )}
         >
