@@ -3,7 +3,7 @@ import Button from "@/components/forms/button";
 import { CheckIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
 import React from "react";
-import { PinCode, Text, Password, Modal } from "rizzui";
+import { PinCode, Text, Password, Modal, Badge } from "rizzui";
 import useNavigate from "@/utils/navigation";
 
 export default function LoginPage() {
@@ -43,10 +43,10 @@ export default function LoginPage() {
             </div>
             <div>
               <Text className="font-semibold text-center">
-                Didn’t receive a code?{" "}
-                <span className="bg-green-700 rounded-full px-1 text-white text-sm">
+                Didn’t receive a code? <Badge color="success" className="bg-green-700">Resend</Badge>
+                {/* <span className="bg-green-700 rounded-full px-1 text-white text-sm">
                   Resend
-                </span>
+                </span> */}
               </Text>
               <Button
                 onClick={() => navigateTo("/set-pin")}
