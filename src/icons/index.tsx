@@ -1,3 +1,11 @@
 export { default as BillspotLogo } from "./billspot-logo.svg";
 export { default as SendIcon } from "./send-2.svg";
 export { default as MoneyIcon } from "./moneys.svg";
+export { default as SettingsIcon } from "./settings.svg";
+export { default as HelpIcon } from "./help.svg";
+export { default as LegalIcon } from "./legal.svg";
+export { default as ReferralIcon } from "./referral.svg";
+export { default as TransactionIcon } from "./transaction.svg";
+export { default as WalletIcon } from "./wallet.svg";
+export { default as WarningIcon } from "./warning.svg";
+export { default as HomeIcon } from "./home.svg";
