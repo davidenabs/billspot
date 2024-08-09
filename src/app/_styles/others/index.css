@@ -53,22 +53,12 @@ table {
   @apply border-separate border-spacing-0 border-none;
 }
 
-tr:first-child th:first-child {
-  @apply rounded-tl-2xl;
-}
-tr:first-child th:last-child {
-  @apply rounded-tr-2xl;
-}
-
-tr:last-child td:first-child {
-  @apply rounded-bl-2xl;
-}
-tr:last-child td:last-child {
-  @apply rounded-br-2xl;
-}
-
 .\[\&_\.rc-table-container\]\:border-muted .rc-table-container {
-  @apply rounded-2xl border-t;
+  @apply rounded-2xl border-0;
+}
+
+.\[\&_\.rc-table-container\]\:border-x .rc-table-container {
+  @apply !border-l-0 !border-r-0;
 }
 
 /* recent registration swiper */

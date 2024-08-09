@@ -41,7 +41,7 @@ function Dashboard({ children }: { children: React.ReactNode }) {
 
   return (
     <Fragment>
-      <section className="flex gap-2 !bg-white h-screen">
+      <section className="flex gap-2 !bg-white h-screen w-full">
         <div className="w-[390px] h-full bg-[#F9F7FF] p-12">
           <div className="mb-16">
             <Image
@@ -109,7 +109,7 @@ function Dashboard({ children }: { children: React.ReactNode }) {
         </div>
         <div
           className={cn(
-            ""
+            "w-full  px-12"
             // !app.showAuthTabs && "flex"
           )}
         >

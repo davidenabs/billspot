@@ -9,3 +9,5 @@ export { default as TransactionIcon } from "./transaction.svg";
 export { default as WalletIcon } from "./wallet.svg";
 export { default as WarningIcon } from "./warning.svg";
 export { default as HomeIcon } from "./home.svg";
+export { default as AndroidIcon } from "./android.svg";
+export { default as AppleIcon } from "./apple.svg";
