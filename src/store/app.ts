@@ -9,6 +9,7 @@ interface AppState {
   dahboardDrawerFooterContent: React.ReactNode | null;
   isProfileMdaSetup: boolean;
   isSidebarOpen: boolean;
+  placement: string;
 }
 
 export const defaultApp: AppState = {
@@ -19,6 +20,7 @@ export const defaultApp: AppState = {
   dahboardDrawerFooterContent: null,
   isProfileMdaSetup: false,
   isSidebarOpen: false,
+  placement: "left",
 };
 
 // export const appAtom = atomWithStorage("gsp-app", defaultApp);

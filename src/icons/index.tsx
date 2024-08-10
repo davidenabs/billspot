@@ -11,3 +11,6 @@ export { default as WarningIcon } from "./warning.svg";
 export { default as HomeIcon } from "./home.svg";
 export { default as AndroidIcon } from "./android.svg";
 export { default as AppleIcon } from "./apple.svg";
+export { default as MenuIcon } from "./menu.svg";
+export { default as HalfMoonIcon } from "./half-moon.svg";
+export { default as LogoutIcon } from "./logout.svg";

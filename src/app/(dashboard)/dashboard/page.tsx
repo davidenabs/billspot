@@ -1,7 +1,7 @@
 "use client";
 import DownloadApp from "@/components/dashboard/home/cards/DownloadApp";
 import Wallet from "@/components/dashboard/home/cards/Wallet";
-import { Navbar } from "@/components/dashboard/home/Navbar";
+import Navbar from "@/components/dashboard/home/Navbar";
 import RecentTransactions from "@/components/dashboard/home/RecentTransactions";
 import { WifiIcon } from "@heroicons/react/16/solid";
 import { Button, Text } from "rizzui";
@@ -13,7 +13,7 @@ export default function DashboardHomePage() {
         <Navbar />
 
         {/* Dashboard content */}
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid md:grid-cols-2 gap-5">
           <Wallet />
           <DownloadApp />
         </div>
