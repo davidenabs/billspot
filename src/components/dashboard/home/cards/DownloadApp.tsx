@@ -7,7 +7,7 @@ type Props = {};
 
 const DownloadApp = (props: Props) => {
   return (
-    <div className="flex flex- rounded-3xl bg-[linear-gradient(114deg,#85FFBD_0%,#FFFB7D_100%)] w-full h-[217px] p-7 overflow-hidden">
+    <div className="hidden md:flex flex- rounded-3xl bg-[linear-gradient(114deg,#85FFBD_0%,#FFFB7D_100%)] w-full h-[217px] p-7 overflow-hidden">
       <div className="flex flex-col my-auto w-[317px]">
         <Text className="font-bold text-[25px] w-fit">
           Download the Billspot<br></br>App & get started now

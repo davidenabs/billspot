@@ -34,16 +34,16 @@ const Wallet = (props: Props) => {
         </Text>
       </div>
 
-      <div className="mt-7 md:mt-5 flex gap-3 items-center text-white text-sm md:text-base">
-        <div className="w-[91px] h-[50px] md:w-full md:h-[68px] bg-[#1D1D1D] rounded-lg flex justify-center items-center gap-2 ">
+      <div className="mt-7 md:mt-5 flex gap-2 md:gap-3 items-center text-white text-sm md:text-base">
+        <div className="w-full h-[50px] md:h-[68px] bg-[#1D1D1D] rounded-lg flex justify-center items-center gap-2 ">
           <SendIcon className="md:w-8 md:h-8 w-5 h-5" />
           <Text>Top up</Text>
         </div>
-        <div className="w-[91px] h-[50px] md:w-full md:h-[68px] bg-[#1D1D1D] rounded-lg flex justify-center items-center gap-2 ">
+        <div className="w-full h-[50px] md:h-[68px] bg-[#1D1D1D] rounded-lg flex justify-center items-center gap-2 ">
           <SendIcon className="md:w-8 md:h-8 w-5 h-5" />
           <Text>Transfer</Text>
         </div>
-        <div className="w-[91px] h-[50px] md:w-full md:h-[68px] bg-[#1D1D1D] rounded-lg flex justify-center items-center gap-2 ">
+        <div className="w-full h-[50px] md:h-[68px] bg-[#1D1D1D] rounded-lg flex justify-center items-center gap-2 ">
           <SendIcon className="md:w-8 md:h-8 w-5 h-5" />
           <Text>Request</Text>
         </div>

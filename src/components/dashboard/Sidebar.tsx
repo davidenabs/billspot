@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import {
   HelpIcon,
   HomeIcon,
@@ -69,7 +69,7 @@ const Sidebar = (props: Props) => {
     <>
      <div
           className={cn(
-            "fixed lg:relative w-[298px] lg:w-[390px] h-full bg-[#F9F7FF] z50 transition-transform transform",
+            "hidden md:block fixed lg:relative w-[298px] lg:w-[390px] h-full bg-[#F9F7FF] z50 transition-transform transform",
             app.isSidebarOpen
               ? "translate-x-0"
               : "-translate-x-full lg:translate-x-0"
