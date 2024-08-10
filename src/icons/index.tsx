@@ -1,5 +1,7 @@
 export { default as BillspotLogo } from "./billspot-logo.svg";
 export { default as SendIcon } from "./send-2.svg";
+export { default as Money2Icon } from "./send-2.svg";
+export { default as Wallet2Icon } from "./send-2.svg";
 export { default as MoneyIcon } from "./moneys.svg";
 export { default as SettingsIcon } from "./settings.svg";
 export { default as HelpIcon } from "./help.svg";
@@ -14,3 +16,4 @@ export { default as AppleIcon } from "./apple.svg";
 export { default as MenuIcon } from "./menu.svg";
 export { default as HalfMoonIcon } from "./half-moon.svg";
 export { default as LogoutIcon } from "./logout.svg";
+export { default as CopyIcon } from "./copy.svg";

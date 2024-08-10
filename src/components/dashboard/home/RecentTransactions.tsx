@@ -4,6 +4,7 @@ import Table from "@/components/table/table";
 import { useMemo } from "react";
 import HeaderCell from "@/components/table/table-header-cell";
 import Link from "next/link";
+import Pagination from "@/components/pagination";
 
 const data = [
   {
@@ -99,19 +100,25 @@ function GetStatusBadge(status: string) {
   }
 }
 
-type Props = {};
+type Props = {
+  showPagination: boolean;
+};
 
 const RecentTransactions = (props: Props) => {
   const columns = useMemo(() => GetColumns(), []);
   return (
     <div>
-      <Text className="md:font-bold md:text-[20px] text-gray-500 mb-3">
+      <Text className="md:font-bold md:text-[20px] text-gray-500 md:text-black mb-3">
         Recent Transactions
       </Text>
       <div className="bg-[#F5F5F5] w-full min-h-[300px] rounded-[15px] overflow-hidden hidden md:block">
         <Table className={`w-full`} data={data} columns={columns} />
       </div>
-
+      {props.showPagination && (
+        <div className="justify-center py-20 hidden md:flex">
+          <Pagination totalPages={5} />
+        </div>
+      )}
       <div className="space-y-10 block md:hidden">
         <div className="w-full bg-white min-h-[78px] rounded-xl text-[#2c2c2c">
           <Text className="text-sm text-left ] border-b p-2 px-4">
@@ -191,7 +198,7 @@ const RecentTransactions = (props: Props) => {
         </div>
 
         <div className="pb-5 text-center text-bs-violet font-medium">
-          <Link href={'#'} >View All</Link>
+          <Link href={"#"}>View All</Link>
         </div>
       </div>
     </div>
